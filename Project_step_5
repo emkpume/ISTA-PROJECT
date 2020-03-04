@@ -1,0 +1,62 @@
+# *Emeka Mkpume*
+
+## *Project_step_5
+
+### *Date : February 24, 2020*
+
+--
+
+CREATE DATABASE EMEKA_ISTAProject
+
+CREATE TABLE user_profile
+(user_data varchar,
+instructor_data varchar,
+city varchar
+);
+
+CREATE TABLE application_output
+(firstName varchar,
+city varchar
+);
+
+CREATE TABLE categories
+(coachingID int,
+mentorID int,
+sponsorID int
+);
+
+CREATE TABLE student_categories
+(studentID int,
+programmerID int,
+MSSA_graduateID int
+);
+
+CREATE TABLE user_date
+(studentID int,
+programmerID int,
+MSSA_graduateID int,
+firstName varchar,
+lastName varchar,
+address varchar,
+birthdate datetime,
+city varchar,
+telephone int,
+title varchar,
+state varchar
+);
+
+CREATE TABLE instructor_data
+(studentID int,
+programmerID int,
+MSSA_graduateID int,
+firstName varchar,
+lastName varchar,
+years_of_experince int,
+title_of_courtesy varchar,
+address varchar,
+birthdate datetime,
+city varchar,
+telephone int,
+title varchar,
+state varchar
+);
